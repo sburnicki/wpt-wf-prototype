@@ -127,10 +127,6 @@ $(document).ready(function () {
 
 	});
 
-	setTimeout(function () {
-		$('.view-mode-toggle').click();
-	}, 25);
-
 	$('.wf-panel input').on('keyup', function () {
 		var search = this.value;
 		var interactiveWf = $(this).closest('.wpt-wf-interactive')
